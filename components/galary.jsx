@@ -1,5 +1,7 @@
+"use client";
+
 import React from "react";
-import Slider from "react-slick";
+import dynamic from "next/dynamic";
 import {
   pic1,
   pic2,
@@ -15,9 +17,13 @@ import {
   pic12,
   pic13,
   pic14,
-} from "../assets";
+} from "@/assets";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
+
+// Dynamically import React Slick to avoid SSR issues
+const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 const Gallery = () => {
   const images = [
@@ -37,73 +43,37 @@ const Gallery = () => {
     pic14,
   ];
 
-  const settings = {
-    dots: false, // Disable dots
-    infinite: true, // Infinite loop
-    speed: 500, // Speed of sliding
-    slidesToShow: 3, // Show 3 slides at a time
-    slidesToScroll: 1, // Scroll 1 slide at a time
-    autoplay: true, // Autoplay enabled
-    autoplaySpeed: 2000, // Speed of autoplay
+  const baseSettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
     responsive: [
       {
-        breakpoint: 1024, // For screens less than 1024px
-        settings: {
-          slidesToShow: 3, // Show 3 slides
-        },
+        breakpoint: 1024,
+        settings: { slidesToShow: 3 },
       },
       {
-        breakpoint: 768, // For screens less than 768px
-        settings: {
-          slidesToShow: 3, // Show 3 slides
-        },
+        breakpoint: 768,
+        settings: { slidesToShow: 2 },
       },
       {
-        breakpoint: 480, // For screens less than 480px
-        settings: {
-          slidesToShow: 1, // Show 2 slides for small screens
-        },
+        breakpoint: 480,
+        settings: { slidesToShow: 1 },
       },
     ],
-    arrows: false, // Hide side arrows
-  };
-  const settings_two = {
-    dots: false, // Disable dots
-    infinite: true, // Infinite loop
-    speed: 500, // Speed of sliding
-    slidesToShow: 3, // Show 3 slides at a time
-    slidesToScroll: 1, // Scroll 1 slide at a time
-    autoplay: true, // Autoplay enabled
-    autoplaySpeed: 500, // Speed of autoplay
-    responsive: [
-      {
-        breakpoint: 1024, // For screens less than 1024px
-        settings: {
-          slidesToShow: 3, // Show 3 slides
-        },
-      },
-      {
-        breakpoint: 768, // For screens less than 768px
-        settings: {
-          slidesToShow: 3, // Show 3 slides
-        },
-      },
-      {
-        breakpoint: 480, // For screens less than 480px
-        settings: {
-          slidesToShow: 3, // Show 2 slides for small screens
-        },
-      },
-    ],
-    arrows: false, // Hide side arrows
+    arrows: false,
   };
 
   return (
     <div className="p-6 bg-[#0F0325]">
-      <Slider {...settings}>
+      {/* First Slider */}
+      <Slider {...baseSettings} autoplaySpeed={2000}>
         {images.map((image, index) => (
           <div key={index} className="px-2 mb-8">
-            <img
+            <Image
               src={image}
               alt={`Gallery ${index + 1}`}
               className="rounded-lg shadow-md w-full h-64 object-cover"
@@ -111,10 +81,12 @@ const Gallery = () => {
           </div>
         ))}
       </Slider>
-      <Slider {...settings_two}>
+
+      {/* Second Slider */}
+      <Slider {...baseSettings} autoplaySpeed={500}>
         {images.map((image, index) => (
           <div key={index} className="px-2">
-            <img
+            <Image
               src={image}
               alt={`Gallery ${index + 1}`}
               className="rounded-lg shadow-md w-full h-64 object-cover"
@@ -127,3 +99,4 @@ const Gallery = () => {
 };
 
 export default Gallery;
+ 

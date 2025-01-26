@@ -1,10 +1,11 @@
 import React from 'react';
-import { bigLogo } from '../../assets';
+import { bigLogo } from '@/assets';
+import Image from 'next/image';
 
 const Declearation = () => {
     return (
         <div className="relative bg-gray-50 p-6 flex flex-col items-center text-center">
-            <img
+            <Image
                 src={bigLogo}
                 className="absolute inset-0 w-full h-full object-contain opacity-10"
                 alt="Big Logo"

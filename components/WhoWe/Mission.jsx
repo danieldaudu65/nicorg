@@ -1,6 +1,6 @@
 import React from 'react';
-import { missions, visions } from '../../constant';
-import { bigLogo } from '../../assets';
+import { missions, visions } from '@/constant';
+import { bigLogo } from '@/assets';
 
 const Mission = () => {
   return (

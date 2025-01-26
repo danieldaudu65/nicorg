@@ -1,5 +1,5 @@
 import React from 'react';
-import { statements } from '../../constant';
+import { statements } from '@/constant';
 
 const StatementOfFaith = () => {
   return (

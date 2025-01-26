@@ -58,7 +58,7 @@ const Navbar = () => {
                 <ul className="flex flex-col items-start p-4 space-y-4 font-bold">
                     <li><Link href="/" className="hover:text-[#47DC17] transition-2s">HOME</Link></li>
                     <li><Link href="/about" className="hover:text-[#47DC17] transition-2s">WHO WE ARE</Link></li>
-                    <li><Link href="/branch" className="hover:text-[#47DC17] transition-2s">BRANCHES</Link></li>
+                    <li><Link href="/branches" className="hover:text-[#47DC17] transition-2s">BRANCHES</Link></li>
                     <li><Link href="/giving" className="hover:text-[#47DC17] transition-2s">ONLINE GIVING</Link></li>
                     <li>
                         <div
@@ -77,9 +77,9 @@ const Navbar = () => {
                         {mediaState && (
                             <div className="ml-6 mt-2 space-y-2">
                                 <ul className="space-y-2">
-                                    <li><Link href="/media/audio" className="hover:text-[#47DC17] transition-2s">Audio Sermons</Link></li>
-                                    <li><Link href="/media/video" className="hover:text-[#47DC17] transition-2s">Video Sermons</Link></li>
-                                    <li><Link href="/media/picture" className="hover:text-[#47DC17] transition-2s">Gallery</Link></li>
+                                    <li><Link href="/audios" className="hover:text-[#47DC17] transition-2s">Audio Sermons</Link></li>
+                                    <li><Link href="/videos" className="hover:text-[#47DC17] transition-2s">Video Sermons</Link></li>
+                                    <li><Link href="/pictures" className="hover:text-[#47DC17] transition-2s">Gallery</Link></li>
                                 </ul>
                             </div>
                         )}

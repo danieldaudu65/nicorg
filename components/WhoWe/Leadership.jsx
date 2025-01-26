@@ -1,21 +1,21 @@
 import React from 'react';
 import { churchmedia, GeandFam } from '../../assets';
 import { FaArrowRight } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Leadership = () => {
 
-    const navigate = useNavigate()
     return (
         <div className='bg-black text-white'>
 
-            {/* <img src= {churchmedia} alt="" /> */}
-            <div className='bg-blue-950 flex items-center justify-center p-8'>
-                <img src={churchmedia} alt="" />
+            {/* <Image src= {churchmedia} alt="" /> */}
+            <div className='bg-blue-950 flex w-full items-center justify-center p-8'>
+                <Image src={churchmedia} alt="" className='w-full'/>
             </div>
             <div className='bg-black p-6 text-white'>
                 <p className='text-gray-500 text-[13px] mb-8'>01 Leadership</p>
-                <img src={GeandFam} alt="" />
+                <Image src={GeandFam} alt="" />
                 <p className='underline my-4 font-bold'>Senior Pastor & Family</p>
             </div>
             <div className='bg-black   p-6'>
@@ -26,7 +26,9 @@ const Leadership = () => {
                     <br />  He is joyfully married to Reverend Blessed Iyere, who serves as the Vice President and Co-Lead Pastor of the ministry. Together, they are blessed with two adorable children, Bethel and Elora, who are a testament to their godly heritage.
                 </p>
 
-                <button className='flex justify-center items-center text-[12px] bg-[#FF543E] p-2 rounded-md gap-2' onClick={() => navigate('leaders')}>See all Leaders <FaArrowRight /> </button>
+                <Link href = '/leaders' >
+                    <button className='flex justify-center items-center text-[12px] bg-[#FF543E] p-2 rounded-md gap-2' >See all Leaders <FaArrowRight /> </button>
+                </Link>
             </div>
         </div>
     );
