@@ -23,7 +23,7 @@ const Homepage = () => {
         }}
       >
         <h1 className="text-[32px] -mt-20 font-nunito font-extrabold">NOBLE IN CHRIST MINISTRIES</h1>
-        <p className="my-3 font-parkin">BLESSED PEOPLE, BLESSING LIVES</p>
+        <p className="  font text-[12px] font-sans">Blessed People, Blessing Lives </p>
 
         <Link href="/branch" className="underline mt-10">
           Find A Branch Near You

@@ -28,11 +28,11 @@ const Footer = () => {
           </div>
           <div className="flex gap-4 my-4 items-center">
             <FaEnvelope className="text-[20px]" />
-            <p className="text-[12px]">noblechristinfo@gmail.com</p>
+            <p className="text-[12px]">Nobleinchristinfo@gmail.com</p>
           </div>
           <div className="flex gap-4 my-4 items-center">
             <FaPhone className="text-[20px]" />
-            <p className="text-[12px]">+234 - 703 - 5430 - 287</p>
+            <p className="text-[12px]">+234 - 703 - 543 - 0287</p>
           </div>
         </div>
         <hr className="my-4 border-t border-gray-400" />

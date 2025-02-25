@@ -1,6 +1,8 @@
+import { bigLogo } from '@/assets';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { branches } from '@/constant';
+import Image from 'next/image';
 import React from 'react';
 import { FaSearch } from 'react-icons/fa';
 
@@ -19,6 +21,14 @@ const page = () => {
             <input type="search" placeholder='Search' className='ml-3 outline-none w-full placeholder:text-gray-500' />
           </div>
           <div className='-mt-4'>
+
+
+            <Image alt='' src={bigLogo} className="absolute inset-0 left-1/2 top-10 transform -translate-x-1/2 z-0 opacity-50"
+              width={500}
+              height={500} />
+            <Image alt='' src={bigLogo} className="absolute inset-0 left-1/2 top-[100vh] transform -translate-x-1/2 z-0 opacity-50"
+              width={500}
+              height={500} />
             {
               branches.map((item, index) => (
                 <div className=' py-10 text-[12px] my-8 rounded-xl px-6 border '
@@ -35,8 +45,6 @@ const page = () => {
               ))
             }
           </div>
-
-
         </div>
         <div className='bg-black p-6 py-12 text-[12px] text-white flex items-center justify-center flex-col text-center'>
           <h3 className='font-bold'>Can't find a worship center near you ?</h3>

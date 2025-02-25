@@ -1,48 +1,52 @@
 import { audio1, audio2, audio3, audio4, audio5, pastor1, pastor2, pastor3, pastor4, pastor5, video1, video2, video3 } from "./assets"
 
 export const Cards = [
+
     {
-        title: "ONLINE GIVING",
-        text: 'All forms of giving to the mission be it offerings, partnership, tithe, etc can be made via click on the button below',
-        button: 'Pay Now'
+        title: "TESTIMONIES",
+        text: 'To share the testimony of what God did for you during any of our programs, kindle clcik here so it can be added to the testimonies during the next service.',
+        button: 'Click Here',
+        link: 'https://forms.gle/HUdtxMDjsCAowvKx6'
     },
     {
-        title: "TESTINMONY",
-        text: 'TO share the testimonu of what God did for you during any of our programs, kindle clcik here so it can be added to the testimonies during the next service.',
-        button: 'Click Here'
-    }
+        title: "FIRST TIMERS",
+        text: 'To share the testimony of what God did for you during any of our programs, kindle clcik here so it can be added to the testimonies during the next service.',
+        button: 'Click Here',
+        link: 'https://forms.gle/tfqRrrFa8HWNvsmd8'
+    },
 ]
 
 export const testimonies = [
     {
-        no: 'TESTIMMONY #1',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #1',
+        text: 'Praise the Lord! I had been searching for a job for over a year without success. During one of our prayer meetings, the pastor declared open doors of opportunity. The very next week, I received an unexpected call for an interview, and now I have a job with even better pay than I expected. God is faithful!'
     },
     {
-        no: 'TESTIMMONY #2',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #2',
+        text: 'Glory to God! I was diagnosed with a serious illness, and the doctors told me I had little chance of recovery. But the church stood in prayer with me. I went for another test a few weeks later, and the doctors were shocked to find no trace of the disease. Jesus is my healer!'
     },
     {
-        no: 'TESTIMMONY #3',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #3',
+        text: 'Hallelujah! I had a huge financial burden and didn’t know how to clear my debts. But after sowing a seed in faith, I unexpectedly received financial help from a distant relative I hadn’t spoken to in years. Now I am debt-free and more financially stable than ever.'
     },
     {
-        no: 'TESTIMMONY #4',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #4',
+        text: 'God is wonderful! My wife and I had been struggling to conceive for many years. After prayers and prophetic declarations from the pastor, she conceived, and now we are blessed with a beautiful baby girl. God truly answers prayers!'
     },
     {
-        no: 'TESTIMMONY #5',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #5',
+        text: 'I was involved in a terrible accident, and the doctors said I would never walk again. But I held on to my faith, and the church continued to pray for me. Today, I can walk perfectly without any support. God is my healer and deliverer!'
     },
     {
-        no: 'TESTIMMONY #6',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #6',
+        text: 'I lost all hope when my business was failing, and I was on the verge of closing down. But after attending a special anointing service, things began to turn around. Now, my business is thriving beyond my expectations. God is indeed my provider!'
     },
     {
-        no: 'TESTIMMONY #7',
-        text: 'Paise the Lord During July elevation Sunday, pastor called my case and mentioned that we are all girls and my dad wants a male child. That sunday Pastor prayed for me as a point of contact to reach my mom.The good news is that my mom gave birth to a baby boy on tuesday 24th October 2023.'
+        no: 'TESTIMONY #7',
+        text: 'I was battling depression and felt like giving up on life. But after attending a revival service, God restored my joy and peace. Now, I wake up every day filled with gratitude and purpose. Jesus is my comforter!'
     }
-]
+];
+
 
 export const visions = [
     {
@@ -210,6 +214,11 @@ export const branches = [
     },
     {
         location: 'AKUNGBA',
+        street: 'NO 1 CELE, STREET JUNCTION, AKUNGBA. ONDO STATE.',
+        phone: '+234-906-5585-313'
+    },
+    {
+        location: 'AUCHI',
         street: 'CHURCH HALL BETWEEN WAZIRI HOUSE AND FIRST BAWAK JUNCTION,OPPOSITE AKHOKIA BLOCK INDUSTRY, ALONG AUCHI EXPRESS WAY,AUCHI EDO STATE',
         phone: '+234-813-113-4474'
     },
@@ -220,31 +229,36 @@ export const all_pastors = [
         image: pastor1,
         name: "Rev'd Austin",
         instagram: '',
-        branch: 'Ugbowo Brance'
+        facebook: '',
+        branch: 'Ugbowo Branch'
     },
     {
         image: pastor2,
-        name: "Rev'd Blessed Iyare",
+        name: "Rev'd Blessed Iyere",
         instagram: '',
-        branch: 'Benin Brance'
+        facebook: '',
+        branch: 'Headquarters in Benin City.'
     },
     {
         image: pastor3,
         name: "Daniel Mozai",
         instagram: '',
-        branch: 'Ekpoma Brance'
-    },
-    {
-        image: pastor4,
-        name: "Vincent Akinbobola",
-        instagram: '',
-        branch: 'Akungba Branch'
+        facebook: '',
+        branch: 'Ekpoma Branch'
     },
     {
         image: pastor5,
         name: "Omwan Influence",
         instagram: '',
-        branch: 'Auchi Brance'
+        facebook: '',
+        branch: 'Auchi Branch'
+    },
+    {
+        image: pastor4,
+        name: "Vincent Akinbobola",
+        instagram: '',
+        facebook: '',
+        branch: 'Akungba Branch'
     },
 ]
 

@@ -10,9 +10,7 @@ const Leadership = () => {
         <div className='bg-black text-white'>
 
             {/* <Image src= {churchmedia} alt="" /> */}
-            <div className='bg-blue-950 flex w-full items-center justify-center p-8'>
-                <Image src={churchmedia} alt="" className='w-full'/>
-            </div>
+          
             <div className='bg-black p-6 text-white'>
                 <p className='text-gray-500 text-[13px] mb-8'>01 Leadership</p>
                 <Image src={GeandFam} alt="" />

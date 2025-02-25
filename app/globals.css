@@ -18,3 +18,26 @@ body {
 
 
 
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, lightgreen, #b3d9ff); /* light green to soft blue */
+  }
+  25% {
+    background: linear-gradient(45deg, #b3d9ff, #e0bbff); /* soft blue to lavender */
+  }
+  50% {
+    background: linear-gradient(45deg, #e0bbff, white); /* lavender to white */
+  }
+  75% {
+    background: linear-gradient(45deg, white, lightgreen); /* white to light green */
+  }
+  100% {
+    background: linear-gradient(45deg, lightgreen, #b3d9ff); /* back to light green */
+  }
+}
+
+.bg-gradient-animation {
+  animation: gradientAnimation 10s ease-in-out infinite; /* 10s duration, ease-in-out for smooth transitions */
+}
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import { members } from '../../assets';
+import { locate, members } from '../../assets';
 import { FaArrowRight } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image'
@@ -27,7 +27,7 @@ const BecomeAMember = () => {
             </Link>
 
             <div className='flex'>
-                <Image src={members} alt="Members" className='w-full' />
+                <Image src={locate} alt="Members" className='w-full' />
             </div>
         </div>
     );

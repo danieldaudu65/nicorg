@@ -10,7 +10,10 @@ const page = () => {
         <>
             <Navbar />
             <div className=' pt-12 '>
-                <h1 className='text-[14px] mx-6  my-16 underline font-bold'>BECOME A PARRT OF OUT LOVING COMMUNITY</h1>
+                <div className='bg-[30F0325] mt-14'>
+                    <Gallery />
+                </div>
+                <h1 className='text-[14px] mx-6  my-16 underline font-bold'>BECOME A PART OF OUR LOVING COMMUNITY</h1>
 
                 <div className='bg-[#54130b] py-4  p-6  text-white'>
                     <h2 className='font-bold mt-8'>Connect with Nobles in Christ Ministries on any of these Platform</h2>
@@ -37,9 +40,7 @@ const page = () => {
                     <p className='text-[12px]'>join us today!!</p>
                 </div>
 
-                <div className='-=bg-[30F0325]'>
-                    <Gallery />
-                </div>
+
             </div>
             <Footer />
         </>

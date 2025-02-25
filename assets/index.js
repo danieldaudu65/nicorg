@@ -23,6 +23,8 @@ import pastor5 from './pastor3.svg'
 
 import gohome from './gohome.svg'
 
+import locate from './locate.jpg'
+
 
 import picture from './pic.png'
 
@@ -62,10 +64,29 @@ import audio1 from './audio/audio.png'
 import audio2 from './audio/audio2.png'
 import audio3 from './audio/audio3.png'
 import audio4 from './audio/audio4.png'
+
+
 import audio5 from './audio/audio5.png'
 
 
+import AboutBG from './aboutBG.jpg'
+
+import aboutgalary1 from './aboutgalary1.jpg'
+import aboutgalary2 from './aboutgalary2.jpg'
+import aboutgalary3 from './aboutgalary3.jpg'
+import aboutgalary4 from './aboutgalary4.jpg'
+import aboutgalary5 from './aboutgalary5.jpg'
+import aboutgalary6 from './aboutgalary6.jpg'
+
 export {
+    aboutgalary1,
+    aboutgalary2,
+    aboutgalary3,
+    aboutgalary4,
+    aboutgalary5,
+    aboutgalary6,
+    
+    AboutBG,
     video1,
     video2,
     video3,
@@ -82,6 +103,7 @@ export {
     pic4,
     pic5,
     pic6,
+    locate,
     pic7,
     pic8,
     pic9,
@@ -124,4 +146,81 @@ export {
     pastor3,
     pastor4,
     pastor5
+}
+
+import picg1 from './pictures/picg1.jpg';
+import picg2 from './pictures/picg2.jpg';
+import picg3 from './pictures/picg3.jpg';
+import picg4 from './pictures/picg4.jpg';
+import picg5 from './pictures/picg5.jpg';
+import picg6 from './pictures/picg6.jpg';
+import picg7 from './pictures/picg7.jpg';
+import picg8 from './pictures/picg8.jpg';
+import picg9 from './pictures/picg9.jpg';
+import picg10 from './pictures/picg10.jpg';
+import picg11 from './pictures/picg11.jpg';
+import picg12 from './pictures/picg12.jpg';
+import picg13 from './pictures/picg13.jpg';
+import picg14 from './pictures/picg14.jpg';
+import picg15 from './pictures/picg15.jpg';
+import picg16 from './pictures/picg16.jpg';
+import picg17 from './pictures/picg17.jpg';
+import picg18 from './pictures/picg18.jpg';
+import picg19 from './pictures/picg19.jpg';
+import picg20 from './pictures/picg20.jpg';
+import picg21 from './pictures/picg21.jpg';
+import picg22 from './pictures/picg22.jpg';
+import picg23 from './pictures/picg23.jpg';
+import picg24 from './pictures/picg24.jpg';
+import picg25 from './pictures/picg25.jpg';
+import picg26 from './pictures/picg26.jpg';
+import picg27 from './pictures/picg27.jpg';
+import picg28 from './pictures/picg28.jpg';
+import picg29 from './pictures/picg29.jpg';
+import picg30 from './pictures/picg30.jpg';
+import picg31 from './pictures/picg31.jpg';
+import picg32 from './pictures/picg32.jpg';
+import picg33 from './pictures/picg33.jpg';
+import picg34 from './pictures/picg34.jpg';
+import picg35 from './pictures/picg35.jpg';
+import picg36 from './pictures/picg36.jpg';
+
+
+export {
+    picg1,
+    picg2,
+    picg3,
+    picg4,
+    picg5,
+    picg6,
+    picg7,
+    picg8,
+    picg9,
+    picg10,
+    picg11,
+    picg12,
+    picg13,
+    picg14,
+    picg15,
+    picg16,
+    picg17,
+    picg18,
+    picg19,
+    picg20,
+    picg21,
+    picg22,
+    picg23,
+    picg24,
+    picg25,
+    picg26,
+    picg27,
+    picg28,
+    picg29,
+    picg30,
+    picg31,
+    picg32,
+    picg33,
+    picg34,
+    picg35,
+    picg36
 }

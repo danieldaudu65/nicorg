@@ -1,10 +1,11 @@
+import Link from 'next/link';
 import React from 'react';
 
-const Button = ({ text, color }) => {
+const Button = ({ text, color, link }) => {
     return (
-        <div className='cursor-pointer font-[700] w-40 h-12 flex items-center justify-center rounded-xl shadow-xl border bg-[#47DC17]'>
+        <Link href = {`${link}`} className='cursor-pointer text-[12px] font-[700] w-32 h-12 flex items-center justify-center rounded-xl shadow-xl border bg-[#47DC17]'>
             {text}
-        </div>
+        </Link>
     );
 }
 

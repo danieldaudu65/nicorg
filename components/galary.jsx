@@ -3,20 +3,42 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import {
-  pic1,
-  pic2,
-  pic3,
-  pic4,
-  pic5,
-  pic6,
-  pic7,
-  pic8,
-  pic9,
-  pic10,
-  pic11,
-  pic12,
-  pic13,
-  pic14,
+  picg1,
+  picg2,
+  picg3,
+  picg4,
+  picg5,
+  picg6,
+  picg7,
+  picg8,
+  picg9,
+  picg10,
+  picg11,
+  picg12,
+  picg13,
+  picg14,
+  picg15,
+  picg16,
+  picg17,
+  picg18,
+  picg19,
+  picg20,
+  picg21,
+  picg22,
+  picg23,
+  picg24,
+  picg25,
+  picg26,
+  picg27,
+  picg28,
+  picg29,
+  picg30,
+  picg31,
+  picg32,
+  picg33,
+  picg34,
+  picg35,
+  picg36
 } from "@/assets";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -27,20 +49,42 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
 const Gallery = () => {
   const images = [
-    pic1,
-    pic2,
-    pic3,
-    pic4,
-    pic5,
-    pic6,
-    pic7,
-    pic8,
-    pic9,
-    pic10,
-    pic11,
-    pic12,
-    pic13,
-    pic14,
+    picg1,
+    picg2,
+    picg3,
+    picg4,
+    picg5,
+    picg6,
+    picg7,
+    picg8,
+    picg9,
+    picg10,
+    picg11,
+    picg12,
+    picg13,
+    picg14,
+    picg15,
+    picg16,
+    picg17,
+    picg18,
+    picg19,
+    picg20,
+    picg21,
+    picg22,
+    picg23,
+    picg24,
+    picg25,
+    picg26,
+    picg27,
+    picg28,
+    picg29,
+    picg30,
+    picg31,
+    picg32,
+    picg33,
+    picg34,
+    picg35,
+    picg36
   ];
 
   const baseSettings = {
@@ -76,7 +120,7 @@ const Gallery = () => {
             <Image
               src={image}
               alt={`Gallery ${index + 1}`}
-              className="rounded-lg shadow-md w-full h-64 object-cover"
+              className="rounded-lg shadow-md w-full h-72 object-cover"
             />
           </div>
         ))}
@@ -99,4 +143,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
- 

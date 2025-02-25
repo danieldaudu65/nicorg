@@ -10,7 +10,7 @@ const Testimonials = () => {
   const displayedTestimonies = showAll ? testimonies : testimonies.slice(0, 3);
 
   return (
-    <div className="p-6 bg-gray-100">
+    <div className="p-4 bg-gray-100">
       <h1 className="text-[16px] text-start font-nunito font-[800] w-[80%] mb-6">
         Testimonials and Stories of Changed Lives
       </h1>
@@ -18,7 +18,7 @@ const Testimonials = () => {
         {displayedTestimonies.map((item, index) => (
           <div
             key={index}
-            className="border my-4  relative h-auto py-10 px-8 flex justify-evenly items-center flex-col rounded-xl shadow-md p-4 w-[80%] bg-[#ffffff21]"
+            className="border my-4  relative h-auto py-10 px-4 flex justify-evenly items-center flex-col rounded-xl shadow-md p-4 w-[80%] bg-[#ffffff21]"
           >
             <h2 className="text-xl mb-4 text-black font-[800]">{item.no}</h2>
             <p className="text-gray-700 leading-loose text-[13px] font-parkin text-center">

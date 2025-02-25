@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
        <Homepage />
        <Welcome />
-       <Programs />
+       {/* <Programs /> */}
        <Card />
        <BecomeAMember />
        <Testimonials />
