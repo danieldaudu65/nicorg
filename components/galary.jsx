@@ -38,7 +38,14 @@ import {
   picg33,
   picg34,
   picg35,
-  picg36
+  picg36,
+
+  picg37, picg38, picg39, picg40,
+    picg41, picg42, picg43, picg44, picg45, picg46, picg47, picg48, picg49, picg50,
+    picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
+    picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
+    picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
+    picg81, picg82, picg83, picg84, picg85, picg86, picg87, picg88
 } from "@/assets";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -84,7 +91,13 @@ const Gallery = () => {
     picg33,
     picg34,
     picg35,
-    picg36
+    picg36,
+    picg37, picg38, picg39, picg40,
+    picg41, picg42, picg43, picg44, picg45, picg46, picg47, picg48, picg49, picg50,
+    picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
+    picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
+    picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
+    picg81, picg82, picg83, picg84, picg85, picg86, picg87
   ];
 
   const baseSettings = {
@@ -114,7 +127,7 @@ const Gallery = () => {
   return (
     <div className="p-6 bg-[#0F0325]">
       {/* First Slider */}
-      <Slider {...baseSettings} autoplaySpeed={2000}>
+      <Slider {...baseSettings} autoplaySpeed={2500}>
         {images.map((image, index) => (
           <div key={index} className="px-2 mb-8">
             <Image
@@ -126,8 +139,7 @@ const Gallery = () => {
         ))}
       </Slider>
 
-      {/* Second Slider */}
-      <Slider {...baseSettings} autoplaySpeed={500}>
+      <Slider {...baseSettings} autoplaySpeed={1000}>
         {images.map((image, index) => (
           <div key={index} className="px-2">
             <Image

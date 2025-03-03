@@ -147,7 +147,6 @@ export {
     pastor4,
     pastor5
 }
-
 import picg1 from './pictures/picg1.jpg';
 import picg2 from './pictures/picg2.jpg';
 import picg3 from './pictures/picg3.jpg';
@@ -184,43 +183,67 @@ import picg33 from './pictures/picg33.jpg';
 import picg34 from './pictures/picg34.jpg';
 import picg35 from './pictures/picg35.jpg';
 import picg36 from './pictures/picg36.jpg';
-
+import picg37 from './pictures/picg37.jpg';
+import picg38 from './pictures/picg38.jpg';
+import picg39 from './pictures/picg39.jpg';
+import picg40 from './pictures/picg40.jpg';
+import picg41 from './pictures/picg41.jpg';
+import picg42 from './pictures/picg42.jpg';
+import picg43 from './pictures/picg43.jpg';
+import picg44 from './pictures/picg44.jpg';
+import picg45 from './pictures/picg45.jpg';
+import picg46 from './pictures/picg46.jpg';
+import picg47 from './pictures/picg47.jpg';
+import picg48 from './pictures/picg48.jpg';
+import picg49 from './pictures/picg49.jpg';
+import picg50 from './pictures/picg50.jpg';
+import picg51 from './pictures/picg51.jpg';
+import picg52 from './pictures/picg52.jpg';
+import picg53 from './pictures/picg53.jpg';
+import picg54 from './pictures/picg54.jpg';
+import picg55 from './pictures/picg55.jpg';
+import picg56 from './pictures/picg56.jpg';
+import picg57 from './pictures/picg57.jpg';
+import picg58 from './pictures/picg58.jpg';
+import picg59 from './pictures/picg59.jpg';
+import picg60 from './pictures/picg60.jpg';
+import picg61 from './pictures/picg61.jpg';
+import picg62 from './pictures/picg62.jpg';
+import picg63 from './pictures/picg63.jpg';
+import picg64 from './pictures/picg64.jpg';
+import picg65 from './pictures/picg65.jpg';
+import picg66 from './pictures/picg66.jpg';
+import picg67 from './pictures/picg67.jpg';
+import picg68 from './pictures/picg68.jpg';
+import picg69 from './pictures/picg69.jpg';
+import picg70 from './pictures/picg70.jpg';
+import picg71 from './pictures/picg71.jpg';
+import picg72 from './pictures/picg72.jpg';
+import picg73 from './pictures/picg73.jpg';
+import picg74 from './pictures/picg74.jpg';
+import picg75 from './pictures/picg75.jpg';
+import picg76 from './pictures/picg76.jpg';
+import picg77 from './pictures/picg77.jpg';
+import picg78 from './pictures/picg78.jpg';
+import picg79 from './pictures/picg79.jpg';
+import picg80 from './pictures/picg80.jpg';
+import picg81 from './pictures/picg81.jpg';
+import picg82 from './pictures/picg82.jpg';
+import picg83 from './pictures/picg83.jpg';
+import picg84 from './pictures/picg84.jpg';
+import picg85 from './pictures/picg85.jpg';
+import picg86 from './pictures/picg86.jpg';
+import picg87 from './pictures/picg87.jpg';
+// import picg88 from './pictures/picg88.jpg';
 
 export {
-    picg1,
-    picg2,
-    picg3,
-    picg4,
-    picg5,
-    picg6,
-    picg7,
-    picg8,
-    picg9,
-    picg10,
-    picg11,
-    picg12,
-    picg13,
-    picg14,
-    picg15,
-    picg16,
-    picg17,
-    picg18,
-    picg19,
-    picg20,
-    picg21,
-    picg22,
-    picg23,
-    picg24,
-    picg25,
-    picg26,
-    picg27,
-    picg28,
-    picg29,
-    picg30,
-    picg31,
-    picg32,
-    picg33,
-    picg34,
-    picg35,
-    picg36
-}
+    picg1, picg2, picg3, picg4, picg5, picg6, picg7, picg8, picg9, picg10,
+    picg11, picg12, picg13, picg14, picg15, picg16, picg17, picg18, picg19, picg20,
+    picg21, picg22, picg23, picg24, picg25, picg26, picg27, picg28, picg29, picg30,
+    picg31, picg32, picg33, picg34, picg35, picg36, picg37, picg38, picg39, picg40,
+    picg41, picg42, picg43, picg44, picg45, picg46, picg47, picg48, picg49, picg50,
+    picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
+    picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
+    picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
+    picg81, picg82, picg83, picg84, picg85, picg86, picg87
+};

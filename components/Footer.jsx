@@ -50,10 +50,10 @@ const Footer = () => {
             <h4 className="text-white text-base mb-4">Quick Links</h4>
             <div className="flex flex-col gap-2 text-[12px]">
               <Link href="/giving" className="hover:text-gray-300">Giving</Link>
-              <Link href="/join-us-online" className="hover:text-gray-300">Join us Online</Link>
+              <Link href="/" className="hover:text-gray-300">Join us Online</Link>
               <Link href="/branches" className="hover:text-gray-300">Branches</Link>
-              <Link href="/media" className="hover:text-gray-300">Media</Link>
-              <Link href="/our-leaders" className="hover:text-gray-300">Our Leaders</Link>
+              <Link href="/pictures" className="hover:text-gray-300">Media</Link>
+              <Link href="/leaders" className="hover:text-gray-300">Our Leaders</Link>
             </div>
           </div>
 
@@ -62,8 +62,8 @@ const Footer = () => {
             <h4 className="text-white text-base mb-4">Social Links</h4>
             <div className="flex flex-col gap-4 text-[12px]">
               {[ 
-                { icon: facebookicon, label: 'Facebook', href: 'https://facebook.com' },
-                { icon: instagramicon, label: 'Instagram', href: 'https://instagram.com' },
+                { icon: facebookicon, label: 'Facebook', href: 'https://www.facebook.com/bennydelight?mibextid=LQQJ4d' },
+                { icon: instagramicon, label: 'Instagram', href: 'https://www.instagram.com/iyere_austin?igsh=bHhxbzEzOWh6bHNz' },
                 { icon: youtubeicon, label: 'YouTube', href: 'https://youtube.com' },
                 { icon: mixicon, label: 'Mixlr', href: 'https://mixlr.com' }
               ].map(({ icon, label, href }, index) => (
