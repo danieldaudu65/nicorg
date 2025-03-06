@@ -3,18 +3,18 @@ import { audio1, audio2, audio3, audio4, audio5, pastor1, pastor2, pastor3, past
 export const Cards = [
 
     {
+        title: "FIRST TIMERS",
+        text: "Welcome! We are so glad you’re here with us today. Be it you’re visiting for the first time or searching for a home, you're valued and loved. Feel encouraged, connected, and uplifted as we worship together. Welcome to the NIC family!",
+        button: 'Click Here',
+        link: 'https://forms.gle/tfqRrrFa8HWNvsmd8'
+    },
+    {
         title: "TESTIMONIES",
         text: 'To share the testimony of what God did for you during any of our programs, kindle clcik here so it can be added to the testimonies during the next service.',
         button: 'Click Here',
         link: 'https://forms.gle/HUdtxMDjsCAowvKx6'
     },
-    {
-        title: "FIRST TIMERS",
-        text: 'To share the testimony of what God did for you during any of our programs, kindle clcik here so it can be added to the testimonies during the next service.',
-        button: 'Click Here',
-        link: 'https://forms.gle/tfqRrrFa8HWNvsmd8'
-    },
-]
+] 
 
 export const testimonies = [
     {
@@ -247,14 +247,14 @@ export const all_pastors = [
         branch: 'Ekpoma Branch'
     },
     {
-        image: pastor5,
+        image: pastor4,
         name: "Omwan Influence",
         instagram: '',
         facebook: '',
         branch: 'Auchi Branch'
     },
     {
-        image: pastor4,
+        image: pastor5,
         name: "Vincent Akinbobola",
         instagram: '',
         facebook: '',
@@ -330,7 +330,7 @@ export const belief = [
 
 export const audios = [
     {
-        audioLink: "",
+        audioLink: "https://t.me/Nobleinchristministry",
         image: audio1,
         title: "Thanksgiving",
         description: ''

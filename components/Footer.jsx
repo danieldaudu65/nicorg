@@ -19,7 +19,7 @@ const Footer = () => {
         {/* Contact Section */}
         <div className="text-[#fffa]">
           <h3 className="font-bold text-lg">GET IN TOUCH</h3>
-          <p className="text-[13px] font-light">Nobles in Christ Ministries, Contact us</p>
+          <p className="text-[13px] font-light">Nobles in Christ Ministries.</p>
           <div className="flex gap-4 my-4 items-start">
             <FaMapMarkerAlt className="text-[20px]" />
             <p className="text-[12px]">
@@ -28,11 +28,15 @@ const Footer = () => {
           </div>
           <div className="flex gap-4 my-4 items-center">
             <FaEnvelope className="text-[20px]" />
-            <p className="text-[12px]">Nobleinchristinfo@gmail.com</p>
+            <a href="mailto:Nobleinchristinfo@gmail.com" className="text-[12px] hover:text-gray-300">
+              Nobleinchristinfo@gmail.com
+            </a>
           </div>
           <div className="flex gap-4 my-4 items-center">
             <FaPhone className="text-[20px]" />
-            <p className="text-[12px]">+234 - 703 - 543 - 0287</p>
+            <a href="tel:+2347035430286" className="text-[12px] hover:text-gray-300">
+              +234 - 703 - 543 - 0286
+            </a>
           </div>
         </div>
         <hr className="my-4 border-t border-gray-400" />
@@ -61,7 +65,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white text-base mb-4">Social Links</h4>
             <div className="flex flex-col gap-4 text-[12px]">
-              {[ 
+              {[
                 { icon: facebookicon, label: 'Facebook', href: 'https://www.facebook.com/bennydelight?mibextid=LQQJ4d' },
                 { icon: instagramicon, label: 'Instagram', href: 'https://www.instagram.com/iyere_austin?igsh=bHhxbzEzOWh6bHNz' },
                 { icon: youtubeicon, label: 'YouTube', href: 'https://youtube.com' },

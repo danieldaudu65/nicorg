@@ -125,11 +125,11 @@ const Gallery = () => {
   };
 
   return (
-    <div className="p-6 bg-[#0F0325]">
+    <div className="p-4 bg-[#0F0325] grid gap-2 grid-cols-2">
       {/* First Slider */}
       <Slider {...baseSettings} autoplaySpeed={2500}>
         {images.map((image, index) => (
-          <div key={index} className="px-2 mb-8">
+          <div key={index} className="px-2 mb-2">
             <Image
               src={image}
               alt={`Gallery ${index + 1}`}
@@ -139,13 +139,35 @@ const Gallery = () => {
         ))}
       </Slider>
 
-      <Slider {...baseSettings} autoplaySpeed={1000}>
-        {images.map((image, index) => (
+      <Slider {...baseSettings} autoplaySpeed={1500}>
+        {images.slice(9).map((image, index) => (
           <div key={index} className="px-2">
             <Image
               src={image}
               alt={`Gallery ${index + 1}`}
-              className="rounded-lg shadow-md w-full h-64 object-cover"
+              className="rounded-lg shadow-md w-full h-72 object-cover"
+            />
+          </div>
+        ))}
+      </Slider>
+      <Slider {...baseSettings} autoplaySpeed={3000}>
+        {images.slice(15).map((image, index) => (
+          <div key={index} className="px-2">
+            <Image
+              src={image}
+              alt={`Gallery ${index + 1}`}
+              className="rounded-lg shadow-md w-full h-72 object-cover"
+            />
+          </div>
+        ))}
+      </Slider>
+      <Slider {...baseSettings} autoplaySpeed={2000}>
+        {images.slice(20).map((image, index) => (
+          <div key={index} className="px-2">
+            <Image
+              src={image}
+              alt={`Gallery ${index + 1}`}
+              className="rounded-lg shadow-md w-full h-72 object-cover"
             />
           </div>
         ))}

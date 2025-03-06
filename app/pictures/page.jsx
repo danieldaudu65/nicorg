@@ -24,20 +24,20 @@ const page = () => {
                         </a>
                         <a href="" className='bg-white h-[150px] p-3 flex gap-2 items-center justify-center rounded-lg border'>
                             <Image src={instagramicon} alt="" className='w-[20px]' />
-                            <p>Facebook</p>
+                            <p>Instagram</p>
                         </a>
                         <a href="" className='bg-white h-[150px] p-3 flex gap-2 items-center justify-center rounded-lg border'>
                             <Image src={youtubeicon} alt="" className='w-[20px]' />
-                            <p>Facebook</p>
+                            <p>Youtube</p>
                         </a>
                         <a href="" className='bg-white h-[150px] p-3 flex gap-2 items-center justify-center rounded-lg border'>
                             <Image src={mixicon} alt="" className='w-[20px]' />
-                            <p>Facebook</p>
+                            <p>Mixlr</p>
                         </a>
                     </div>
 
-                    <p className='text-[12px]'>Be a part of our church Family</p>
-                    <p className='text-[12px]'>join us today!!</p>
+                    {/* <p className='text-[12px]'>Be a part of our church Family</p>
+                    <p className='text-[12px]'>join us today!!</p> */}
                 </div>
 
 

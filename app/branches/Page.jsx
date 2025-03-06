@@ -14,7 +14,7 @@ const page = () => {
         <div className='p-6 '>
           <div>
             <h1 className='font-bold font-nunito text-[22 mt-10px]'>EXPLORE OUR BRANCHES</h1>
-            <p className='text-[12px]'>Check for NIC Brnach closest to You.</p>
+            <p className='text-[12px]'>Check for NIC Branch closest to You.</p>
           </div>
           <div className='border my-8 p-3 flex rounded-xl items-center'>
             <FaSearch className='text-[18px] text-[#0000006f] ' />

@@ -20,7 +20,7 @@ const BecomeAMember = () => {
 
             {/* Corrected Link for navigation */}
             <Link
-                href="/branch"
+                href="/branches"
                 className='mb-8 flex p-4 py-2 gap-3 rounded-md w-fit items-center justify-center bg-[#FF432B]'
             >
                 <p>Location Near Me</p> <FaArrowRight />

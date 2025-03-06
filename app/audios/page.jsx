@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { audios } from '@/constant';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -18,7 +19,7 @@ const page = () => {
                             <Image src={item.image} alt="" />
                             <div className='self-center'>
                                 <h3 className='font-bold text-[12px]'>{item.title}</h3>
-                                <p className='text-[8px]'>{item.audioLink}</p>
+                                <Link href={item.audioLink} target='_blank' className='text-[8px]'>{item.audioLink}</Link>
                             </div>
                         </div>
                     ))
@@ -26,7 +27,7 @@ const page = () => {
 
                 <div className='text-[10px] my-6'>
                     <p className='font-bold'>Click here to see more of our Audio Sermons</p>
-                    <p>https://t.me/Nobleinchristministry</p>
+                    <Link target='_blank' href={'https://t.me/Nobleinchristministry'}>https://t.me/Nobleinchristministry</Link>
                 </div>
             </div>
             <Footer />

@@ -84,7 +84,7 @@ const Navbar = () => {
                             </div>
                         )}
                     </li>
-                    <li><Link href="/quick" className="hover:text-[#47DC17] transition-2s">QUICK LINKS</Link></li>
+                    {/* <li><Link href="/quick" className="hover:text-[#47DC17] transition-2s">QUICK LINKS</Link></li> */}
                 </ul>
             </div>
         </div>
