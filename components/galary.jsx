@@ -41,11 +41,12 @@ import {
   picg36,
 
   picg37, picg38, picg39, picg40,
-    picg41, picg42, picg43, picg44, picg45, picg46, picg47, picg48, picg49, picg50,
-    picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
-    picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
-    picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
-    picg81, picg82, picg83, picg84, picg85, picg86, picg87, picg88
+  picg41, picg42, picg43, picg44, picg45, picg46, picg47, picg48, picg49, picg50,
+  picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
+  picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
+  picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
+  picg81, picg82, picg83, picg84, picg85, picg86, picg87, picg88,
+  picg89, picg90, picg91
 } from "@/assets";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -87,17 +88,13 @@ const Gallery = () => {
     picg29,
     picg30,
     picg31,
-    picg32,
-    picg33,
-    picg34,
-    picg35,
-    picg36,
-    picg37, picg38, picg39, picg40,
+    picg32, picg33, picg34, picg35,
+    picg36, picg37, picg38, picg39, picg40,
     picg41, picg42, picg43, picg44, picg45, picg46, picg47, picg48, picg49, picg50,
     picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
     picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
     picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
-    picg81, picg82, picg83, picg84, picg85, picg86, picg87
+    picg81, picg82, picg83, picg84, picg85, picg86, picg87, picg88, picg89, picg90, picg91
   ];
 
   const baseSettings = {
@@ -127,7 +124,7 @@ const Gallery = () => {
   return (
     <div className="p-4 bg-[#0F0325] grid gap-2 grid-cols-2">
       {/* First Slider */}
-      <Slider {...baseSettings} autoplaySpeed={2500}>
+      <Slider {...baseSettings} autoplaySpeed={3000}>
         {images.map((image, index) => (
           <div key={index} className="px-2 mb-2">
             <Image
@@ -139,19 +136,8 @@ const Gallery = () => {
         ))}
       </Slider>
 
-      <Slider {...baseSettings} autoplaySpeed={1500}>
-        {images.slice(9).map((image, index) => (
-          <div key={index} className="px-2">
-            <Image
-              src={image}
-              alt={`Gallery ${index + 1}`}
-              className="rounded-lg shadow-md w-full h-72 object-cover"
-            />
-          </div>
-        ))}
-      </Slider>
       <Slider {...baseSettings} autoplaySpeed={3000}>
-        {images.slice(15).map((image, index) => (
+        {images.slice(1).map((image, index) => (
           <div key={index} className="px-2">
             <Image
               src={image}
@@ -161,8 +147,19 @@ const Gallery = () => {
           </div>
         ))}
       </Slider>
-      <Slider {...baseSettings} autoplaySpeed={2000}>
-        {images.slice(20).map((image, index) => (
+      <Slider {...baseSettings} autoplaySpeed={2500}>
+        {images.slice(40).map((image, index) => (
+          <div key={index} className="px-2">
+            <Image
+              src={image}
+              alt={`Gallery ${index + 1}`}
+              className="rounded-lg shadow-md w-full h-72 object-cover"
+            />
+          </div>
+        ))}
+      </Slider>
+      <Slider {...baseSettings} autoplaySpeed={2500}>
+        {images.slice(41).map((image, index) => (
           <div key={index} className="px-2">
             <Image
               src={image}

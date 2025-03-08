@@ -85,7 +85,7 @@ export {
     aboutgalary4,
     aboutgalary5,
     aboutgalary6,
-    
+
     AboutBG,
     video1,
     video2,
@@ -234,7 +234,10 @@ import picg84 from './pictures/picg84.jpg';
 import picg85 from './pictures/picg85.jpg';
 import picg86 from './pictures/picg86.jpg';
 import picg87 from './pictures/picg87.jpg';
-// import picg88 from './pictures/picg88.jpg';
+import picg88 from './pictures/picg88.jpg';
+import picg89 from './pictures/picg89.jpg';
+import picg90 from './pictures/picg89.jpg';
+import picg91 from './pictures/picg89.jpg';
 
 export {
     picg1, picg2, picg3, picg4, picg5, picg6, picg7, picg8, picg9, picg10,
@@ -245,5 +248,5 @@ export {
     picg51, picg52, picg53, picg54, picg55, picg56, picg57, picg58, picg59, picg60,
     picg61, picg62, picg63, picg64, picg65, picg66, picg67, picg68, picg69, picg70,
     picg71, picg72, picg73, picg74, picg75, picg76, picg77, picg78, picg79, picg80,
-    picg81, picg82, picg83, picg84, picg85, picg86, picg87
+    picg81, picg82, picg83, picg84, picg85, picg86, picg87, picg88, picg89, picg90,picg91
 };
